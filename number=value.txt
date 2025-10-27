@@ -1,0 +1,218 @@
+══════════════════════════════════════════════
+🚦 ENCODING REFERENCE — ACCIDENT DATA COLUMNS
+══════════════════════════════════════════════
+
+📌 Column 1: Type_of_vehicle
+------------------------------------------
+Automobile                                → 0.1
+Public (> 45 seats)                       → 0.2
+Lorry (41–100Q)                           → 0.3
+Public (13–45 seats)                      → 0.4
+Lorry (11–40Q)                            → 0.5
+Long lorry                                → 0.6
+Public (12 seats)                         → 0.7
+Taxi                                      → 0.8
+Pick up upto 10Q                          → 0.9
+Stationwagen                              → 1.0
+Ridden horse                              → 1.1
+Other                                     → 1.2
+Bajaj                                     → 1.3
+Turbo                                     → 1.4
+Motorcycle                                → 1.5
+Special vehicle                           → 1.6
+Bicycle                                   → 1.7
+
+📌 Column 2: Defect_of_vehicle
+------------------------------------------
+No defect                                 → 0.1
+5                                         → 0.2
+7                                         → 0.3
+
+📌 Column 3: Area_accident_occured
+------------------------------------------
+Residential areas                         → 0.1
+Office areas                              → 0.2
+Recreational areas (extra spaces)         → 0.3
+Industrial areas                          → 0.4
+Other                                     → 0.5
+Church areas                              → 0.6
+Market areas                              → 0.7
+Rural village areas                       → 0.8
+Outside rural areas                       → 0.9
+Hospital areas                            → 1.0
+School areas                              → 1.1
+Rural village areasOffice areas           → 1.2
+Recreational areas                        → 1.3
+
+📌 Column 4: Lanes_or_Medians
+------------------------------------------
+Undivided Two way                         → 0
+Two-way (broken lines)                    → 1
+Two-way (solid lines)                     → 2
+Double carriageway (median)               → 3
+One way                                   → 4
+Other                                     → 5
+
+📌 Column 5: Road_allignment
+------------------------------------------
+Tangent road (flat terrain)              → 0.1
+Tangent road (mild grade)                → 0.2
+Escarpments                              → 0.3
+Tangent road (rolling terrain)           → 0.4
+Gentle horizontal curve                  → 0.5
+Mountainous terrain                      → 0.6
+Steep grade downward                     → 0.7
+Sharp reverse curve                      → 0.8
+Steep grade upward                       → 0.9
+
+📌 Column 6: Types_of_Junction
+------------------------------------------
+No junction                               → 0.1
+Y Shape                                   → 0.2
+Crossing                                  → 0.3
+O Shape                                   → 0.4
+Other                                     → 0.5
+T Shape                                   → 0.6
+X Shape                                   → 0.7
+
+📌 Column 7: Road_surface_type
+------------------------------------------
+Asphalt roads                             → 0.1
+Earth roads                               → 0.2
+Asphalt (some distress)                   → 0.3
+Gravel roads                              → 0.4
+Other                                     → 0.5
+
+📌 Column 8: Road_surface_conditions
+------------------------------------------
+Dry                                       → 0.1
+Wet or damp                               → 0.2
+Snow                                      → 0.3
+Flood over 3cm deep                       → 0.4
+
+📌 Column 9: Weather_conditions
+------------------------------------------
+Normal                                    → 0.1
+Raining                                   → 0.2
+Raining and Windy                         → 0.3
+Cloudy                                    → 0.4
+Other                                     → 0.5
+Windy                                     → 0.6
+Snow                                      → 0.7
+Fog or mist                               → 0.8
+
+📌 Column 10: Type_of_collision
+------------------------------------------
+Collision with parked vehicles            → 0.1
+Vehicle-to-vehicle collision              → 0.2
+Collision with roadside objects           → 0.3
+Collision with animals                    → 0.4
+Other                                     → 0.5
+Rollover                                  → 0.6
+Fall from vehicles                        → 0.7
+Collision with pedestrians                → 0.8
+With Train                                → 0.9
+
+📌 Column 11: Vehicle_movement
+------------------------------------------
+Going straight                            → 0.1
+U-Turn                                    → 0.2
+Moving Backward                           → 0.3
+Turnover                                  → 0.4
+Waiting to go                             → 0.5
+Getting off                               → 0.6
+Reversing                                 → 0.7
+Parked                                    → 0.8
+Stopping                                  → 0.9
+Overtaking                                → 1.0
+Other                                     → 1.1
+Entering a junction                       → 1.2
+
+📌 Column 12: Pedestrian_movement
+------------------------------------------
+Not a Pedestrian                          → 0.1
+Crossing from driver's nearside          → 0.2
+Crossing (masked by vehicle)             → 0.3
+Unknown or other                          → 0.4
+Crossing from offside (masked)           → 0.5
+Standing/playing in carriageway          → 0.6
+Walking back to traffic                   → 0.7
+Walking facing traffic                    → 0.8
+Standing (masked by vehicle)             → 0.9
+
+📌 Column 13: Cause_of_accident
+------------------------------------------
+Moving Backward                           → 0.1
+Overtaking                                → 0.2
+Changing lane left                        → 0.3
+Changing lane right                       → 0.4
+Overloading                               → 0.5
+Other                                     → 0.6
+No priority to vehicle                    → 0.7
+No priority to pedestrian                 → 0.8
+No distancing                             → 0.9
+Improper exit                             → 1.0
+Improper parking                          → 1.1
+Overspeed                                 → 1.2
+Driving carelessly                        → 1.3
+Driving at high speed                     → 1.4
+Driving to the left                       → 1.5
+Overturning                               → 1.6
+Turnover                                  → 1.7
+Under influence of drugs                  → 1.8
+Drunk driving                             → 1.9
+
+📌 Column 14: Age_band_of_driver
+------------------------------------------
+Under 18                                  → 0
+18–30                                     → 1
+31–50                                     → 2
+Over 51                                   → 3
+
+📌 Column 15: Educational_level
+------------------------------------------
+Illiterate                                → 0
+Writing & reading                         → 1
+Elementary school                         → 2
+Junior high school                        → 3
+High school                               → 4
+Above high school                         → 5
+
+📌 Column 16: Driving_experience
+------------------------------------------
+No Licence                                → 0
+Below 1yr                                 → 1
+1–2yr                                     → 2
+2–5yr                                     → 3
+5–10yr                                    → 4
+Above 10yr                                → 5
+
+📌 Column 17: Service_year_of_vehicle
+------------------------------------------
+Below 1yr                                 → 0
+1–2yr                                     → 1
+2–5yrs                                    → 2
+5–10yrs                                   → 3
+Above 10yr                                → 4
+
+📌 Column 18: Light_conditions
+------------------------------------------
+Daylight                                  → 3
+Darkness - lights lit                     → 2
+Darkness - lights unlit                   → 1
+Darkness - no lighting                    → 0
+
+📌 Column 19: Accident_severity
+------------------------------------------
+Slight Injury                             → 0
+Serious Injury                            → 1
+Fatal injury                              → 2
+
+📌 Column 20: (Final) Lanes_or_Medians
+------------------------------------------
+Undivided Two way                         → 0
+Two-way (broken lines)                    → 1
+Two-way (solid lines)                     → 2
+Double carriageway (median)               → 3
+One way                                   → 4
+Other                                     → 5

@@ -1,0 +1,46 @@
+                         where order matters 
+              
+"Age_band_of_driver": "Age ranges have a natural progression from younger to older drivers
+, which may influence driving behavior and accident risk.",
+    "Educational_level": "Education levels are ordered hierarchically
+, with higher levels possibly reflecting better awareness or decision-making.",
+    "Driving_experience": "Driving experience increases with
+ time, and greater experience often correlates with improved driving skills and reduced accident probability.",
+    "Service_year_of_vehicle": "The number of service years represents vehicle age,
+ where older vehicles are typically more prone to mechanical issues.",
+    "Light_conditions": "Lighting quality varies from daylight to complete darkness, 
+directly affecting visibility and accident likelihood.",
+    "Accident_severity": "Severity of accidents naturally progresses from slight to serious to fatal,
+ representing increasing levels of impact and injury."
+
+
+
+
+
+                         where no order matters
+"Type_of_vehicle": "Different vehicle types (e.g., car, lorry, bus) are 
+categories without any inherent ranking or hierarchy.",
+    "Defect_of_vehicle": "Whether a vehicle has a defect or not is categorical, 
+with no logical order between defect types.",
+    "Area_accident_occured": "Areas like residential, industrial, or rural are distinct 
+categories without sequential meaning.",
+    "Lanes_or_Medians": "Types of lanes or medians describe road layouts and 
+do not imply any order or progression.",
+    "Road_allignment": "Road alignment types (e.g., curve, tangent, slope) are 
+different geometric forms with no ranking.",
+    "Types_of_Junction": "Junction types such as Y-shape or cross are categorical — one type 
+s not greater or lesser than another.",
+    "Road_surface_type": "Surface types like asphalt or earth represent material categories,
+ not ordered levels.",
+    "Road_surface_conditions": "Conditions such as dry, wet, or muddy describe states,
+ not a hierarchy.",
+    "Weather_conditions": "Weather types (e.g., normal, rainy, foggy) are categorical
+ without any ordinal relationship.",
+    "Type_of_collision": "Collision types (e.g., vehicle-vehicle, vehicle-object) are 
+distinct event categories, not ordered.",
+    "Vehicle_movement": "Movements such as turning, overtaking, or going straight are 
+action types without natural order.",
+    "Pedestrian_movement": "Pedestrian movements (e.g., crossing, standing) are
+ descriptive categories without rank.",
+    "Cause_of_accident": "Accident causes (e.g., speeding, distraction) are categorical factors 
+without sequential meaning."                         
