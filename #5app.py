@@ -447,3 +447,4 @@ st.caption("© 2025 Yuvraj | Accident Severity ML Predictor")
 
 
 
+
