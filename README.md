@@ -171,7 +171,7 @@ model_1.fit(X_train, y_train)
 ### 👨‍💻 Author
 ## Yuvraj
 
-Age: 17 | 🇮🇳 India
+| 🇮🇳 India
 
 Aspiring Data Scientist & Machine Learning Enthusiast
 
@@ -187,3 +187,4 @@ Passionate about solving real-world problems with data
 ### 📧 **Contact Me:**  
 
 ✉️ y.india.main@gmail.com
+
